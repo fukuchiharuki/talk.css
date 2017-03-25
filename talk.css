@@ -37,11 +37,11 @@
 
 .talkcss > .left {
 	float: left;
-	background-color: WhiteSmoke;
+	background-color: white;
 }
 
 .talkcss > .left:before {
-	border-right: 10px solid WhiteSmoke;
+	border-right: 10px solid white;
 	left: -14px;
 }
 
