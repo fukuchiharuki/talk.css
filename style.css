@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+  margin: 0;
+  padding: 0;
+	font-family: Lato;
+	font-weight: 300;
+	color: #333333;
+}
+
+header {
+	margin: 30px;
+}
+
+main {
+	margin: 30px;
+}
+
+footer {
+  margin: 60px 30px 30px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+	font-weight: bolder;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+.description {
+	margin-top: 2px;
+	padding-top: 4px;
+	display: inline-block;
+	border-top: 1px solid gray;
+}
+
+pre {
+	padding: 10px 20px;
+  background-color: #eeeeee;
+  border-left: 4px solid #e0e0e0;
+}
+
+code {
+  background-color: #eeeeee;
+}
+
+p > code {
+  padding: 0 2px;
+}

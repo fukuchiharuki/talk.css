@@ -1,0 +1,56 @@
+.talkcss {
+	display: block;
+	padding: 20px;
+	background-color: SkyBlue;
+}
+
+.talkcss:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.talkcss > .left,
+.talkcss > .right {
+	clear: both;
+	position: relative;
+	max-width: 80%;
+	padding: 10px 20px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.talkcss > .left:before,
+.talkcss > .right:before {
+	z-index: 1;
+	content: "";
+	position: absolute;
+	top: 10px;
+	width: 0;
+	height: 0;
+	border-top: 2px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+.talkcss > .left {
+	float: left;
+	background-color: WhiteSmoke;
+}
+
+.talkcss > .left:before {
+	border-right: 10px solid WhiteSmoke;
+	left: -14px;
+}
+
+.talkcss > .right {
+	float: right;
+	background-color: GreenYellow;
+}
+
+.talkcss > .right:before {
+	border-left: 10px solid GreenYellow;
+	right: -14px;
+}

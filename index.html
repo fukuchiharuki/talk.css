@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<title>talk.css: a css makes paragraphs look like a talk app.</title>
+		<link href="style.css" rel="stylesheet" />
+		<link href="talk.css" rel="stylesheet" />
+	</head>
+	<body>
+
+		<header>
+			<h1>talk.css</h1>
+			<p class="description">
+			talk.css makes paragraphs look like a talk app with CSS.
+			</p>
+		</header>
+		<main>
+
+			<h2>Demo</h2>
+			<div class="talkcss" style="max-width: 400px; margin: 0 auto;">
+				<p class="right">What is this?
+				<p class="left">talk.css makes paragraphs look like a talk app.
+				<p class="right">Wow! How to use it?
+				<p class="left">It is easy to use. You only need to use 3 classes: .talkcss, .right, .left.
+				<p class="right">Sounds great.
+			</div>
+
+			<h2>How to use</h2>
+			<p>Link <code>talk.css</code> to your HTML:
+			<pre><code>&lt;link href="/path/to/talk.css" rel="stylesheet" /&gt;</code></pre>
+
+			<p>And add the class <code>talkcss</code> to an element to make a talk area:
+			<pre><code>&lt;div class="talkcss"&gt;
+&lt;/div&gt;</code></pre>
+
+			<p>And append paragraphs into the area:
+			<pre><code>&lt;div class="talkcss"&gt;
+	&lt;p class="right"&gt;This will be set on right.
+	&lt;p class="left"&gt;This will be set on left.
+&lt;/div&gt;</code></pre>
+
+		</main>
+		<footer>Made by <a href="https://twitter.com/fukuchiharuki">@fukuchiharuki</a></footer>
+
+	</body>
+</html>
