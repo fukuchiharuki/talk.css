@@ -12,6 +12,10 @@ header {
 	margin: 30px;
 }
 
+nav {
+	margin: 30px;
+}
+
 main {
 	margin: 30px;
 }
@@ -19,6 +23,35 @@ main {
 footer {
   margin: 60px 30px 30px;
   text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul > li+li {
+  margin-left: 10px;
+}
+
+nav ul > li > a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  background: #008ad3;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+nav ul > li > a:hover {
+  background: #96cfed;
 }
 
 h1, h2, h3 {
