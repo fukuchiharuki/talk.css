@@ -1,10 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
   margin: 0;
   padding: 0;
 	font-family: Lato;
-	font-weight: 300;
 	color: #333333;
 }
 
