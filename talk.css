@@ -10,19 +10,91 @@
 	clear: both;
 }
 
-.talkcss > .left,
-.talkcss > .right {
+.talkcss > .left.icon,
+.talkcss > .right.icon,
+.talkcss > .left:not(.icon)  + .left:not(.icon),
+.talkcss > .right:not(.icon) + .left:not(.icon),
+.talkcss > .right:not(.icon) + .right:not(.icon),
+.talkcss > .left:not(.icon)  + .right:not(.icon) {
 	clear: both;
+}
+
+.talkcss > .left.icon,
+.talkcss > .right.icon {
+	background-color: white;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background-position: center middle;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.talkcss > .left.icon {
+	float: left;
+	margin-right: 15px;
+	background-image: url(./icon-left.png);
+}
+
+.talkcss > .right.icon {
+	float: right;
+	margin-left: 15px;
+	background-image: url(./icon-right.png);
+}
+
+.talkcss > .icon.named {
 	position: relative;
-	max-width: 80%;
+}
+
+.talkcss > .icon.named:after {
+	position: absolute;
+	white-space: nowrap;
+	top: -5px;
+	display: block;
+	color: white;
+}
+
+.talkcss > .icon.left.named:after {
+	content: "はなこ";
+	left: 60px;
+}
+
+.talkcss > .icon.right.named:after {
+	content: "たろう";
+	right: 60px;
+}
+
+.talkcss > .icon.named + * {
+	margin-top: 35px;
+}
+
+.talkcss > .left.icon + *,
+.talkcss > .right.icon + *,
+.talkcss > .left:not(.icon),
+.talkcss > .right:not(.icon) {
+	position: relative;
 	padding: 10px 20px;
 	border-radius: 15px;
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 }
 
-.talkcss > .left:before,
-.talkcss > .right:before {
+.talkcss > .left.icon + *,
+.talkcss > .right.icon + * {
+	max-width: 60%;
+	max-width: -webkit-calc(80% - 60px);
+	max-width: calc(80% - 60px);
+}
+
+.talkcss > .left:not(.icon),
+.talkcss > .right:not(.icon) {
+	max-width: 80%;
+}
+
+.talkcss > .left.icon + *:before,
+.talkcss > .right.icon + *:before,
+.talkcss > .left:not(.icon):before,
+.talkcss > .right:not(.icon):before {
 	z-index: 1;
 	content: "";
 	position: absolute;
@@ -35,22 +107,26 @@
 	border-left: 5px solid transparent;
 }
 
-.talkcss > .left {
+.talkcss > .left.icon + *,
+.talkcss > .left:not(.icon) {
 	float: left;
 	background-color: white;
 }
 
-.talkcss > .left:before {
+.talkcss > .left.icon + *:before,
+.talkcss > .left:not(.icon):before {
 	border-right: 10px solid white;
 	left: -14px;
 }
 
-.talkcss > .right {
+.talkcss > .right.icon + *,
+.talkcss > .right:not(.icon) {
 	float: right;
 	background-color: GreenYellow;
 }
 
-.talkcss > .right:before {
+.talkcss > .right.icon + *:before,
+.talkcss > .right:not(.icon):before {
 	border-left: 10px solid GreenYellow;
 	right: -14px;
 }
