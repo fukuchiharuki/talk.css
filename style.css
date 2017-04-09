@@ -68,16 +68,11 @@ h1 {
 	border-top: 1px solid gray;
 }
 
-pre {
-	padding: 10px 20px;
-  background-color: #eeeeee;
-  border-left: 4px solid #e0e0e0;
-}
-
-code {
-  background-color: #eeeeee;
+pre > code.hljs {
+	padding: 10px 15px;
 }
 
 p > code {
   padding: 0 2px;
+  background-color: #eeeeee;
 }
