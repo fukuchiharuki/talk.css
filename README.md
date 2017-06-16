@@ -20,4 +20,4 @@ The following images are works of いらすとや.
 - http://blog.fukuchiharuki.me/talk.css/icon-left.png
 - http://blog.fukuchiharuki.me/talk.css/icon-right.png
 
-See http://www.irasutoya.com/p/terms.html .
+See [http://www.irasutoya.com/p/terms.html](http://www.irasutoya.com/p/terms.html).
