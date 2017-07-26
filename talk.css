@@ -10,6 +10,13 @@
 	background-color: SkyBlue;
 }
 
+.talkcss > * {
+	margin: 16px 0;
+	padding: initial;
+	line-height: normal;
+	font-size: medium;
+}
+
 .talkcss:after {
 	content: "";
 	display: block;
