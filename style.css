@@ -2,6 +2,7 @@
 
 body {
 	color: #333333;
+  background-color: #333333;
   font-family:
     Lato,
     "游ゴシック Medium",
@@ -15,10 +16,9 @@ body {
     "ＭＳ Ｐゴシック",
     "MS PGothic",
     sans-serif;
-  background-color: #333333;
 }
 
-header {
+header, footer {
   color: white;
 }
 
@@ -27,7 +27,6 @@ main {
 }
 
 footer {
-  color: white;
   text-align: center;
 }
 
