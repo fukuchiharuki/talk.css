@@ -2,7 +2,6 @@
 
 body {
 	color: #333333;
-  background-color: #333333;
   font-family:
     Lato,
     "游ゴシック Medium",
@@ -18,12 +17,13 @@ body {
     sans-serif;
 }
 
-header, footer {
+header {
   color: white;
+  background-color: #333333;
 }
 
-main {
-  background-color: white;
+footer {
+  background-color: #efefef;
 }
 
 footer {
