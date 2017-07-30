@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
 body {
-	color: #333333;
+  color: #333333;
   font-family:
     Lato,
     "游ゴシック Medium",
@@ -23,10 +23,7 @@ header {
 }
 
 footer {
-  background-color: #efefef;
-}
-
-footer {
+  color: gray;
   text-align: center;
 }
 
