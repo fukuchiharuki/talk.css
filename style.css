@@ -31,3 +31,11 @@ footer {
 pre.code {
   background-color: #282c34;
 }
+
+.demo {
+  padding-bottom: 2.4rem;
+}
+
+.hint:before {
+  content: "💁 "
+}
