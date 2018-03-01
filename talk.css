@@ -57,6 +57,7 @@
 
 .talkcss > .icon.named {
 	position: relative;
+	font-style: normal;
 }
 
 .talkcss > .icon.named:after {
